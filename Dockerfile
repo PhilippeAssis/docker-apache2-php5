@@ -1,5 +1,5 @@
 FROM ubuntu-apache2
-MAINTAINER philippeassis/docker-ubuntu-apache2 PhilippeAssis <assis@philippeassis.com>
+MAINTAINER philippeassis/php5 PhilippeAssis <assis@philippeassis.com>
 
 RUN apt-get install -y php5 php5-mysql php5-dev php5-gd php5-memcache php5-pspell php5-snmp snmp php5-xmlrpc libapache2-mod-php5 php5-cli
 
